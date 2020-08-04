@@ -136,9 +136,7 @@ class ChatBot(object):
 
     def generate_response(self, input_statement, additional_response_selection_parameters=None):
         """
-        Return a response based on a given input statement.
-
-        :param input_statement: The input statement to be processed.
+        empty docstring
         """
         Statement = self.storage.get_object('statement')
 
