@@ -236,8 +236,7 @@ class ChatBot(object):
 
     def get_latest_response(self, conversation):
         """
-        Returns the latest response in a conversation if it exists.
-        Returns None if a matching conversation cannot be found.
+        Nothing
         """
         from chatterbot.conversation import Statement as StatementObject
 
