@@ -10,6 +10,10 @@ class ChatterBotCorpusTrainingTestCase(ChatterBotTestCase):
     """
 
     def setUp(self):
+        """
+        empty one - tdb
+        """
+        
         super().setUp()
 
         self.trainer = ChatterBotCorpusTrainer(
