@@ -6,6 +6,9 @@ class Adapter(object):
     """
 
     def __init__(self, chatbot, **kwargs):
+        """
+        false docstring
+        """
         self.chatbot = chatbot
 
     class AdapterMethodNotImplementedError(NotImplementedError):
