@@ -137,7 +137,7 @@ class ChatBot(object):
 
     def generate_response(self, input_statement, additional_response_selection_parameters=None):
         """
-        empty docstring
+        This is not a good comment at all
         """
         Statement = self.storage.get_object('statement')
 
