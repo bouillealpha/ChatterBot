@@ -700,8 +700,9 @@ def this_week_day(base_date, weekday):
 
 def previous_week_day(base_date, weekday):
     """
-    Finds previous weekday
+    Empty docstring
     """
+    #Finds previous weekday
     day = base_date - timedelta(days=1)
     while day.weekday() != weekday:
         day = day - timedelta(days=1)
