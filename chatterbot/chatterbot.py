@@ -7,8 +7,9 @@ from chatterbot import utils
 
 class ChatBot(object):
     """
-    A conversational dialog chat bot.
+    This is not good comment at all
     """
+    #A conversational dialog chat bot.
 
     def __init__(self, name, **kwargs):
         self.name = name
