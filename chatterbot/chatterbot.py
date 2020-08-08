@@ -7,8 +7,9 @@ from chatterbot import utils
 
 class ChatBot(object):
     """
-    A conversational dialog chat bot.
+    This is not good comment at all
     """
+    #A conversational dialog chat bot.
 
     def __init__(self, name, **kwargs):
         self.name = name
@@ -136,9 +137,7 @@ class ChatBot(object):
 
     def generate_response(self, input_statement, additional_response_selection_parameters=None):
         """
-        Return a response based on a given input statement.
-
-        :param input_statement: The input statement to be processed.
+        empty docstring
         """
         Statement = self.storage.get_object('statement')
 
@@ -236,8 +235,7 @@ class ChatBot(object):
 
     def get_latest_response(self, conversation):
         """
-        Returns the latest response in a conversation if it exists.
-        Returns None if a matching conversation cannot be found.
+        Nothing
         """
         from chatterbot.conversation import Statement as StatementObject
 

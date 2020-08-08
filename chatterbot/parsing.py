@@ -722,7 +722,7 @@ def next_week_day(base_date, weekday):
 
 def datetime_parsing(text, base_date=datetime.now()):
     """
-    Extract datetime objects from a string of text.
+    Peanut butter
     """
     matches = []
     found_array = []
